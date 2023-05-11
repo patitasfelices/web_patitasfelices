@@ -110,7 +110,7 @@ a {
         left: 0;
     }
 
-    .hero-container{
+    .hero-container {
         background-position: left;
     }
 }
@@ -393,11 +393,13 @@ a {
     box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.5);
 }
 
-.card:hover .front, .card:active .front {
+.card:hover .front,
+.card:active .front {
     transform: perspective(600px) rotateY(180deg);
 }
 
-.card:hover .back, .card:active .back {
+.card:hover .back,
+.card:active .back {
     transform: perspective(600px) rotateY(360deg);
 }
 
@@ -540,7 +542,8 @@ a {
     padding: 10px;
 }
 
-.goals-card:hover, .goals-card:active {
+.goals-card:hover,
+.goals-card:active {
     transform: translateY(20px);
 }
 
@@ -583,7 +586,8 @@ a {
     transition: 0.5s all;
 }
 
-.goals-card:hover .goals-text, .goals-card:active .goals-text {
+.goals-card:hover .goals-text,
+.goals-card:active .goals-text {
     opacity: 1;
     transform: translateY(0px);
 }
@@ -696,7 +700,7 @@ footer {
     overflow: hidden;
 }
 
-.colc2-text{
+.colc2-text {
     padding: 20px;
     background-color: white;
     border-radius: 10px;
@@ -713,7 +717,7 @@ footer {
     font-size: 1rem;
 }
 
-.map iframe{
+.map iframe {
     height: 200px;
     width: 100%;
     border-radius: 10px;
@@ -726,12 +730,12 @@ footer {
         flex-wrap: nowrap;
     }
 
-    .formu{
+    .formu {
         display: flex;
         justify-content: center;
     }
 
-    .map iframe{
+    .map iframe {
         height: 300px;
         width: 450px;
         border-radius: 10px;
@@ -767,7 +771,7 @@ footer {
     border: 1px solid var(--black-color);
 }
 
-.textBox{
+.textBox {
     height: 120px;
     overflow: hidden;
 }
@@ -804,26 +808,9 @@ label.fcontacto {
     color: var(--black-color);
 }
 
-/* Sobre nosotros */
+/*leandro*/
 
-.nosotros {
-    padding: 2%;
-    order: 2;
-    flex-basis: 100%;
-    height: 300px;
-    text-align: justify;
-    overflow: auto;
-    color: #2e2e2e;
-    margin-bottom: 2px;
-    position: relative;
-    background-image: url(img/5ee940de7e05c2.jpg);
-    background-size: contain, cover;
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-attachment: fixed;
 
-    opacity: 0.9;
-}
 
 .column__title {
     font-size: 1.3em;
@@ -831,12 +818,15 @@ label.fcontacto {
 .column--33{
     width: 20%;
     word-wrap: break-word;
+    
+    
 }
 
 .group--color .container {
     margin-top: 30px;
     margin-bottom: 30px;
     padding: 20px;
+    
 }
 
 .main__title {
@@ -846,28 +836,34 @@ label.fcontacto {
 
 .our-team {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+   
+
 }
 
 .container--flex {
     align-items: flex-start;
-    display: flex;
+   display: flex;
+   
 }
 
 .our-team__title {
+    font-family: 'Pacifico', cursive;
     color: #de423a;
     font-weight: bold;
     font-size: 1.8em;
     margin-bottom: 10px;
+    
 }
 
 .our-team__img {
     width: 200px;
     height: 200px;
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 60%;
     margin: auto;
     margin-bottom: 20px;
+    
 }
 
 .our-team__txt {
@@ -877,7 +873,10 @@ label.fcontacto {
     color: #1f1f1f;
     padding-top: 10px;
     position: relative;
+    
 }
+
+
 
 @media screen and (min-width:480px) {
     .our-team__img {
@@ -885,3 +884,95 @@ label.fcontacto {
         height: 150px;
     }
 }
+
+.nosotros-container {
+    background-image: url(img/perro-gato.webp);
+    width: 100%;
+    background-color: white;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nosotros-card {
+    background-color: white;
+    border-radius: 10px;
+    width: 400px;
+    height: auto;
+    margin: 50px;
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);
+}
+
+.nosotros-card h2 {
+    border-left: 6px solid var(--main-color);
+    padding-left: 10px;
+    font-size: 2rem;
+    color: var(--black-color);
+}
+
+.nosotros-card p {
+    font-weight: 600;
+    color: var(--black-color);
+}
+.nosotros-btn {
+    background-color: var(--main-color);
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    color: white;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);
+}
+
+.nosotros-btn:hover {
+    background-color: var(--black-color);
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    color: white;
+}
+
+
+.valores-container {
+    background-image: url(img/retrato-grupo-adorables-cachorros.jpg);
+    width: 100%;
+    background-color: #ffffff;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: contrast(75%);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.valores-header {
+    padding: 100px 50px;
+    width: 400px;
+}
+
+.valores-title {
+    border-left: 6px solid var(--main-color);
+    padding-left: 10px;
+    font-size: 2rem;
+}
+
+.valores-paragraph {
+    padding-top: 10px;
+    padding-left: 15px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+
