@@ -220,11 +220,11 @@ a {
     color: var(--black-color);
 }
 
-.slick-prev {
+.slick-next {
     right: 0px;
 }
 
-.slick-next {
+.slick-prev {
     left: 0px;
 }
 
