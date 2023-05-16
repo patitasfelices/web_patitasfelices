@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="icon" type="image/png" sizes="32x32" href="css\img\patitas-felices-favicon.png" />
     <script src="https://kit.fontawesome.com/267380ad7e.js" crossorigin="anonymous"></script>   
@@ -41,10 +41,10 @@
     </header>
 
     <main>
-        <div class="main1">
-            <div class="contactame">
-                <div class="containerc">
-                    <div class="colc1">
+        <section class="contact">
+            <div class="contactus-container">
+                <section class="contact-container">
+                    <div class="map-container">
                         <div class="map">
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4651.800909746522!2d-58.52320544122071!3d-34.46940641141122!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb03cd891437f%3A0xab3b49e671350275!2sSan%20Isidro%2C%20Provincia%20di%20Buenos%20Aires%2C%20Argentina!5e0!3m2!1sit!2sit!4v1682284178389!5m2!1sit!2sit"
@@ -52,22 +52,21 @@
                                 referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
-                    <div class="colc2">
-                        <div class="colc2-text">
-                            <p class="textC">Nos podés encontrar en la zona norte del conourbano bonaerense. Estamos a
+                    <div class="address-container">
+                            <h2 class="address-heading">Ubicación</h2>
+                            <p class="address-text">Nos podés encontrar en la zona norte del conourbano bonaerense. Estamos a
                                 pocos
                                 metros de la Estacion "Los bosques", por si accedes con medios publicos o, en el caso,
                                 vengas con medio de transporte privado, estamos a 300 metros del acceso norte de la
                                 Autopista A5.
                             </p><br>
                             <p class="address">Jacinto Diaz 200,<br>San Isidoro, b1674<br>Argentina<br>Telefono/FAX:(54)
-                                5555555555 <br>Email: <span>info@patitasfelices.org</span></p>
-                        </div>
+                                5555555555 <br>Email: <a href="#">info@patitasfelices.org</a></p>
                     </div>
-                </div>
+                </section>
 
-                <div class="formu">
-                    <div class="formularioc">
+                <section class="form">
+                    <div class="form-container">
                         <label class="fcontacto"> Formulario </label>
                         <form name="fvalidar" method="POST" action="#" onsubmit="return validar();">
                             <div class="to">
@@ -75,11 +74,11 @@
                                 <input type="text" class="textNombre" name="textName" id="nombre"
                                     placeholder="Ingresa tu nombre">
                                 <br>
-                                <label>E mail:</label>
+                                <label>E-mail:</label>
                                 <input type="text" class="textMail" name="textMail" id="email"
                                     placeholder="Ingresa tu e-mail">
                                 <br>
-                                <label>Telefono:</label>
+                                <label>Teléfono:</label>
                                 <input type="text" class="textTel" name="textTel" id="telefono"
                                     placeholder="Ingresa tu número de teléfono">
                             </div>
@@ -94,8 +93,9 @@
                             </div>
                         </form>
                     </div>
-                </div>
+                </section>
             </div>
+        </section>
     </main>
 
     <footer>
