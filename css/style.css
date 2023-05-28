@@ -909,7 +909,7 @@ dd{
 
 .adoptme-background{
     background-color: rgb(238, 238, 238);
-    background-image: url(./img/img-adoptame-1.jpg);
+    background-image: url(img/img-adoptame-1.jpg);
     background-size: 20%;
     background-origin: border-box ;
     background-position: 2% bottom;
